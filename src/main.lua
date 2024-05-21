@@ -1,3 +1,6 @@
+---@meta _
+---@diagnostic disable
+
 -- grabbing our dependencies,
 -- these funky (---@) comments are just there
 --	 to help VS Code find the definitions of things
