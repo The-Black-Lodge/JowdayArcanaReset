@@ -7,7 +7,7 @@ namespace = "Jowday"
 name = "ArcanaReset"
 versionNumber = "1.0.0"
 description = "Adds a bind to deactivate all cards."
-websiteUrl = "https://github.com/southpawgeek/Jowday-ArcanaReset"
+websiteUrl = "https://github.com/The-Black-Lodge/JowdayArcanaReset"
 containsNsfwContent = false
 
 [package.dependencies]
