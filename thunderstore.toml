@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "Jowday"
 name = "ArcanaReset"
-versionNumber = "1.0.1"
+versionNumber = "1.0.2"
 description = "Adds a bind to deactivate all cards."
 websiteUrl = "https://github.com/The-Black-Lodge/JowdayArcanaReset"
 containsNsfwContent = false
