@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+## Fixed
+- fix ModUtil deprecation message
 
 ## [1.0.1] - 2024-05-25
 

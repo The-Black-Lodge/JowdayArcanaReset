@@ -60,6 +60,9 @@ local function on_ready()
         end
     end
 
+    local originalText = game.GetDisplayName({ Text = "ShrineScreen_ResetAll" })
+    local buttonText = string.gsub(originalText, "{ML}", "{RR}")
+
     local ResetAllButton =
     {
         Graphic = "ContextualActionButton",
@@ -71,7 +74,7 @@ local function on_ready()
             OnPressedFunctionName = public.DeactivateAllArcana,
             ControlHotkeys = { "Reroll", },
         },
-        Text = "{RR} DEACTIVATE ALL",
+        Text = buttonText,
         TextArgs = game.UIData.ContextualButtonFormatRight,
     }
 
@@ -87,6 +90,6 @@ end
 local loader = reload.auto_single()
 
 -- this runs only when modutil and the game's lua is ready
-modutil.on_ready_final(function()
+modutil.once_loaded.game(function()
     loader.load(on_ready, on_reload)
 end)
