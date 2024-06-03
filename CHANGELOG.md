@@ -4,6 +4,9 @@
 ## Fixed
 - fix ModUtil deprecation message
 
+## Updated
+- use a localized string for "Reset" rather than hard-coded English
+
 ## [1.0.1] - 2024-05-25
 
 ## Changed
