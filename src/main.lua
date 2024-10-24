@@ -40,7 +40,7 @@ local function on_ready()
     if config.enabled == false then return end
 
     function public.DeactivateAllArcana(screen)
-        local components = game.ScreenAnchors.MetaUpgradeScreen.Components or {}
+        local components = game.ActiveScreens.MetaUpgradeCardLayout.Components or {}
         for k, v in pairs(components) do
             if string.match(k, 'MetaUpgrade$') then
                 -- generate a fake "button" to appease functions that want one

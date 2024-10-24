@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+## Fixed
+- fix crash on reset
 
 ## [1.0.2] - 2024-06-03
 
